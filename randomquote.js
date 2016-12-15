@@ -5,8 +5,8 @@ function displayPage() {
   var colorValue = 'rgb(' + colorRed + ', ' + colorGreen + ', ' + colorBlue + ')';
 
   $("body").css({
-    'background': colorValue,
-    'color': colorValue,
+    'background-color': colorValue,
+    'color': colorValue
   });
 
   $(".btn").css('background', colorValue);
