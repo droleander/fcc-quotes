@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Cormorant Upright', serif;
+  font-weight: bold;
+  margin: 0px auto;
+  padding: 0px;
+  text-shadow: 0px 0px 1px #fff;
+}
+
+body {
+  padding: 0px 10px;
+}
+
+header h1 {
+  color: #fff;
+  margin: auto;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.container {
+  background: url("https://www.dropbox.com/s/5jtxtdfok0vyb74/rocky.jpeg?raw=1") no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+  min-height: 200px;
+  padding: 10px 30px 15px 30px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.quotation {
+  font-size: 2.5em;
+  max-width: auto;
+  text-align: center;
+}
+
+.quotation-source {
+  font-size: 1.75em;
+  text-align: right;
+}
+
+.bttn-block {
+  margin-top: 30px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 1.25em;
+  height: 40px;
+}
+
+.btn:hover,
+.btn:visited {
+  color: #fff;
+  opacity: .75;
+}
+
+.btn-social {
+  margin-right: 10px;
+  width: 40px;
+}
+
+footer {
+  color: #fff;
+  font-size: 1.25em;
+  margin: auto;
+  margin: 25px auto;
+  text-align: center;
+}
+
+footer a,
+footer a:hover {
+  color: #fff;
+}
