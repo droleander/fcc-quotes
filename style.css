@@ -19,7 +19,7 @@ header h1 {
 }
 
 .container {
-  background: url("seasky.jpeg") no-repeat center center;
+  background: url("/img/seasky.jpeg") no-repeat center center;
   background-size: cover;
   border-radius: 10px;
   margin: auto;
