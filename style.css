@@ -19,7 +19,7 @@ header h1 {
 }
 
 .container {
-  background: url("/img/seasky.jpeg") no-repeat center center;
+  background: url("https://www.dropbox.com/s/1jomfx9nldatcry/seasky.jpeg?raw=1") no-repeat center center;
   background-size: cover;
   border-radius: 10px;
   margin: auto;
