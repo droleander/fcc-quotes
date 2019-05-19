@@ -42,14 +42,14 @@ section .container {
 }
 
 .quotation {
-	font-size: 2.25rem;
+	font-size: 2rem;
 	max-width: auto;
 	text-align: center;
 	text-shadow: 1px 1px 1px #fff;
 }
 
 .quotation-source {
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 	text-align: right;
 	text-shadow: 1px 1px 1px #fff;
 }
