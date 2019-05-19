@@ -42,7 +42,7 @@ section .container {
 }
 
 .quotation {
-	font-size: 2rem;
+	font-size: 1.75rem;
 	max-width: auto;
 	text-align: center;
 	text-shadow: 1px 1px 1px #fff;
