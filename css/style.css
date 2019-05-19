@@ -1,10 +1,5 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Cormorant Upright', serif;
-	font-weight: bold;
-	margin: 0px auto;
-	padding: 0px;
-	
 }
 
 html,
@@ -16,43 +11,47 @@ body {
 body {
 	display: flex;
 	flex-direction: column;
+	font-family: 'Cormorant Upright', serif;
 }
 
+header,
+section,
+footer {
+	padding: 0 1rem;
+}
+
+/*** header ***/
+header h1 {
+	color: #ffffff;
+	font-size: 2.75rem;
+	margin: 1rem 0;
+	text-align: center;
+}
+
+/*** section ***/
 section {
 	flex: 1 0 auto;
-	margin: auto 10px;
-}
-
-header h1 {
-	color: #fff;
-	font-size: 2.75rem;
-	margin: auto;
-	margin: 25px auto;
-	text-align: center;
 }
 
 section .container {
 	background: url(https://www.dropbox.com/s/f16umhodn88qea6/seasky.jpeg?raw=1) no-repeat center center;
 	background-size: cover;
 	border-radius: 10px;
-	margin: auto;
-	min-height: 200px;
-	padding: 10px 20px 15px;
 	max-width: 600px;
-	min-width: 300px;
+	min-height: 200px;
+	padding: 5px 20px 15px;
 }
 
 .quotation {
 	font-size: 1.75rem;
-	max-width: auto;
 	text-align: center;
-	text-shadow: 1px 1px 1px #fff;
+	text-shadow: 0px 0px 3px #fff;
 }
 
 .quotation-source {
 	font-size: 1.5rem;
 	text-align: right;
-	text-shadow: 1px 1px 1px #fff;
+	text-shadow: 0px 0px 3px #fff;
 }
 
 .bttn-block {
@@ -72,21 +71,20 @@ section .container {
 }
 
 .btn-social {
-	margin-right: 10px;
 	width: 40px;
 }
 
+/*** footer ***/
 footer {
 	flex-shrink: 0;
-	color: #fff;
-	font-size: 1.25rem;
-	margin: auto;
-	margin: 25px auto;
-	text-align: center;
+	margin: 1rem 0;
 }
 
 footer p {
+	color: #fff;
+	font-size: 1.25rem;
 	margin: auto;
+	text-align: center;
 }
 
 footer a,
