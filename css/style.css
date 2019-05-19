@@ -84,6 +84,10 @@ footer {
 	text-align: center;
 }
 
+footer p {
+	margin: auto;
+}
+
 footer a,
 footer a:hover {
 	color: #fff;
