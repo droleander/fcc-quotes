@@ -68,7 +68,6 @@ section .container {
 .btn:hover,
 .btn:visited {
 	color: #fff;
-	opacity: .75;
 }
 
 .btn-social {
