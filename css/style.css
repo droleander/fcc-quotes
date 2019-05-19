@@ -1,75 +1,90 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Cormorant Upright', serif;
-  font-weight: bold;
-  margin: 0px auto;
-  padding: 0px;
-  text-shadow: 0px 0px 1px #fff;
+	box-sizing: border-box;
+	font-family: 'Cormorant Upright', serif;
+	font-weight: bold;
+	margin: 0px auto;
+	padding: 0px;
+	
+}
+
+html,
+body {
+	height: 100%;
+	overflow: auto;
 }
 
 body {
-  padding: 0px 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+	flex: 1 0 auto;
 }
 
 header h1 {
-  color: #fff;
-  margin: auto;
-  margin: 25px auto;
-  text-align: center;
+	color: #fff;
+	font-size: 2.75rem;
+	margin: auto;
+	margin: 25px auto;
+	text-align: center;
 }
 
-.container {
-  background: url("https://www.dropbox.com/s/lhvsh0lo7qakyas/seasky.jpeg?raw=1") no-repeat center center;
-  background-size: cover;
-  border-radius: 10px;
-  margin: auto;
-  min-height: 200px;
-  padding: 10px 30px 15px 30px;
-  max-width: 600px;
-  min-width: 300px;
+section .container {
+	background: url(https://www.dropbox.com/s/f16umhodn88qea6/seasky.jpeg?raw=1) no-repeat center center;
+	background-size: cover;
+	border-radius: 10px;
+	margin: auto;
+	min-height: 200px;
+	padding: 10px 30px 15px 30px;
+	max-width: 600px;
+	min-width: 300px;
 }
 
 .quotation {
-  font-size: 2.5em;
-  max-width: auto;
-  text-align: center;
+	font-size: 2.25rem;
+	max-width: auto;
+	text-align: center;
+	text-shadow: 1px 1px 1px #fff;
 }
 
 .quotation-source {
-  font-size: 1.75em;
-  text-align: right;
+	font-size: 1.75rem;
+	text-align: right;
+	text-shadow: 1px 1px 1px #fff;
 }
 
 .bttn-block {
-  margin-top: 30px;
+	margin-top: 30px;
 }
 
 .btn {
-  color: #fff;
-  font-size: 1.25em;
-  height: 40px;
+	color: #fff;
+	font-size: 1.25rem;
+	height: 40px;
 }
 
 .btn:hover,
 .btn:visited {
-  color: #fff;
-  opacity: .75;
+	color: #fff;
+	opacity: .75;
 }
 
 .btn-social {
-  margin-right: 10px;
-  width: 40px;
+	margin-right: 10px;
+	width: 40px;
 }
 
 footer {
-  color: #fff;
-  font-size: 1.25em;
-  margin: auto;
-  margin: 25px auto;
-  text-align: center;
+	flex-shrink: 0;
+	color: #fff;
+	font-size: 1.25rem;
+	margin: auto;
+	margin: 25px auto;
+	text-align: center;
 }
 
 footer a,
 footer a:hover {
-  color: #fff;
+	color: #fff;
 }

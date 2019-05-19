@@ -2,41 +2,60 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright:400,600" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet" />
-  <title>Random Quote Machine</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Upright:400,600" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<title>Random Quote Machine</title>
 </head>
 
 <body>
-  <header>
-    <h1>Random Quote Machine</h1>
-  </header>
-  <section>
-    <div class="container">
-      <div class="row quotation-block">
-        <p class="quotation"><i class="fa fa-quote-left"></i> <span class="quote">...</span> <i class="fa fa-quote-right"></i></p>
-        <p class="quotation-source">...</p>
-      </div>
-      <div class="row bttn-block">
-        <a class="btn btn-social btn-facebook facebook-share-button" href="#" title="Share on Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-        <a class="btn btn-social btn-twitter twitter-share-button" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="btn btn-random-quote pull-right" onclick="getQuote()">Random Quote</a>
-      </div>
-    </div>
-  </section>
-  <footer>
-    Created by: lleander
-    <br> Powered by: <a href="http://forismatic.com/en" target="_blank">forismatic.com</a>
-  </footer>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1>Random Quote Machine</h1>
+				</div>
+			</div>
+		</div>
+	</header>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="js/randomquote.js"></script>
+	<section>
+		<div class="container">
+			<div class="row quotation-block">
+				<div class="col">
+					<p class="quotation"><i class="fa fa-quote-left"></i> <span class="quote">...</span> <i class="fa fa-quote-right"></i></p>
+					<p class="quotation-source">...</p>
+				</div>
+			</div>
+			<div class="row bttn-block">
+				<div class="col">
+					<a class="btn btn-social btn-facebook facebook-share-button" href="#" title="Share on Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a class="btn btn-social btn-twitter twitter-share-button" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+					<a href="#" class="btn btn-random-quote pull-right" onclick="getQuote()">Random Quote</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<p>Created by lleander</p>
+					<p>Powered by <a href="http://forismatic.com/en" target="_blank">forismatic.com</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="js/randomquote.js"></script>
 
 </body>
 
