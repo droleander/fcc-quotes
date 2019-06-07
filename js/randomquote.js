@@ -9,11 +9,11 @@ async function getQuote() {
 	let strQuote = quote.quoteText;
 	let strQuoteBy = quote.quoteAuthor;
 	let strQuoteLink = quote.quoteLink;
-	
-	// display quote //
+
+	// display quote
 	displayQuote(strQuote, strQuoteBy);
 	
-	// set quote for sharing //
+	// set quote for sharing
 	setQuoteToPost(strQuote, strQuoteBy, strQuoteLink);
 }
 
@@ -33,7 +33,7 @@ async function getQuoteData() {
 				lang: 'en'
 			}
 		});
-		
+
 		return quoteData;
 		
 	} catch (er) {
@@ -60,10 +60,10 @@ function setQuoteToPost(strQuote, strQuoteBy, strQuoteLink) {
 		strTweetQuote = `https://twitter.com/intent/tweet?text=${strQuoteShort} ... ${strQuoteLink}`;
 	}
 	
-	/* quote to post in Facebook */
+	// quote to post in Facebook
 	$(".btn-facebook").attr("href", strPostQuote);
 	
-	/* quote to post in twitter */
+	// quote to post in twitter
 	$(".btn-twitter").attr("href", strTweetQuote);
 }
 
