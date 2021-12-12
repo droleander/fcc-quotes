@@ -18,9 +18,10 @@ async function getQuote() {
 }
 
 async function getQuoteData() {
-	const strKey = Math.floor(Math.random() * 1000000);
+	// const strKey = Math.floor(Math.random() * 1000000);
+	const strKey = Math.floor(Math.random() * 100000);
 	const strAPI = 'https://cors-anywhere.herokuapp.com/http://api.forismatic.com/api/1.0/';
-	
+		
 	let quoteData;
 	
 	try {
